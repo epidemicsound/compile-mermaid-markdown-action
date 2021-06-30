@@ -1,4 +1,6 @@
-FROM minlag/mermaid-cli:8.8.0
+FROM node:13.13.0
+
+RUN yarn add @mermaid-js/mermaid-cli
 
 WORKDIR /mmdc
 COPY . /mmdc
