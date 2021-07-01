@@ -1,4 +1,4 @@
-FROM neenjaw/mermaid:8.9.2
+FROM eu.gcr.io/es-platform-prod/mermaid:latest
 
 WORKDIR /mmdc
 COPY . /mmdc
